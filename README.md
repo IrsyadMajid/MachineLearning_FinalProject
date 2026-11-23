@@ -4,7 +4,24 @@ Final Project Machine Learning yang bertujuan untuk membandingkan performa algor
 
 ---
 
-## 📊 Dataset Overview
+## Panduan Penggunaan Notebook
+
+Jalankan notebook secara berurutan sesuai alur pipeline berikut:
+
+1. **Preprocessing ([`Preprocessing_Maternal_Risk.ipynb`](Preprocessing_Maternal_Risk.ipynb))**  
+   Memuat dataset mentah `Maternal Risk Data Set.csv`, melakukan audit kualitas data (anomali, missing values, duplikat), dan menghasilkan dataset bersih `Maternal_Risk_Clean.csv`.
+
+2. **Pemodelan KNN ([`KNN_Maternal_Risk.ipynb`](KNN_Maternal_Risk.ipynb))**  
+   Memuat `Maternal_Risk_Clean.csv`, menerapkan standarisasi `StandardScaler`, melatih algoritma K-Nearest Neighbors, mengevaluasi performa data uji, dan menyimulasikan prediksi pasien baru.
+
+3. **Pemodelan Decision Tree ([`Decision_Tree_Maternal_Risk.ipynb`](Decision_Tree_Maternal_Risk.ipynb))**  
+   Memuat `Maternal_Risk_Clean.csv`, melatih model Decision Tree (scale-invariant), mengevaluasi performa data uji, dan menyimulasikan prediksi pasien baru.
+
+*Dependencies:* `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`.
+
+---
+
+## Dataset Overview
 - **Dataset Asli**: `Maternal Risk Data Set.csv`
 - **Dataset Bersih**: `Maternal_Risk_Clean.csv`
 - **Jumlah Fitur**: 11 fitur prediktor + 1 kolom target (`Risk Level`)
@@ -24,7 +41,7 @@ Final Project Machine Learning yang bertujuan untuk membandingkan performa algor
 
 ---
 
-## 🧹 Ringkasan Proses Data Cleaning
+## Ringkasan Proses Data Cleaning
 
 Proses audit dan pembersihan data dilakukan pada notebook [`Preprocessing_Maternal_Risk.ipynb`](Preprocessing_Maternal_Risk.ipynb) sebelum data digunakan pada tahapan pemodelan.
 
