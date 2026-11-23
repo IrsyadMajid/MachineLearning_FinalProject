@@ -1,6 +1,6 @@
-# Prediksi Tingkat Risiko Kesehatan Ibu Hamil (Maternal Health Risk)
+# ANALISIS KOMPARATIF K-NEAREST NEIGHBORS DAN DECISION TREE PADA KLASIFIKASI RISIKO KESEHATAN IBU HAMIL
 
-Final Project Machine Learning yang bertujuan untuk memprediksi tingkat risiko kesehatan ibu hamil (*low risk*, *mid risk*, *high risk*) menggunakan algoritma **K-Nearest Neighbors (KNN)**.
+Final Project Machine Learning yang bertujuan untuk membandingkan performa algoritma **K-Nearest Neighbors (KNN)** dan **Decision Tree** dalam klasifikasi tingkat risiko kesehatan ibu hamil (*low risk*, *mid risk*, *high risk*).
 
 ---
 
@@ -59,4 +59,4 @@ Sebelum proses pembersihan, dilakukan audit kualitas data dengan ringkasan temua
 | **High Risk** | 272 (26.82%) | **101 (26.58%)** |
 | **Mid Risk** | 336 (33.14%) | **76 (20.00%)** |
 
-Data yang telah bersih disimpan ke file **[`Maternal_Health_Clean.csv`](Maternal_Health_Clean.csv)** dan siap untuk tahap *Stratified Train-Test Split* serta eksperimen model KNN.
+Data yang telah bersih disimpan ke file **[`Maternal_Health_Clean.csv`](Maternal_Health_Clean.csv)** dan siap untuk tahap *Stratified Train-Test Split* serta eksperimen perbandingan model KNN dan Decision Tree.
