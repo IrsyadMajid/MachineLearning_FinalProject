@@ -4,6 +4,39 @@ Final Project Machine Learning yang bertujuan untuk membandingkan performa algor
 
 ---
 
+## Panduan Git (Clone & Pull)
+
+### 1. Git Clone (Mengunduh Repositori Pertama Kali)
+Gunakan perintah ini untuk menyalin repositori ke komputer lokal Anda:
+
+```bash
+# Clone repositori via HTTPS
+git clone https://github.com/IrsyadMajid/MachineLearning_FinalProject.git
+
+# Masuk ke direktori proyek
+cd MachineLearning_FinalProject
+```
+
+### 2. Git Pull (Mengambil Pembaruan Terbaru)
+Jika sudah pernah melakukan *clone* dan ingin memperbarui kode lokal dengan versi terbaru dari GitHub:
+
+```bash
+# Pastikan berada pada branch main
+git checkout main
+
+# Tarik pembaruan terbaru dari remote repository
+git pull origin main
+```
+
+> **Tips:** Jika Anda memiliki perubahan lokal yang belum di-*commit* dan ingin mengamankannya sebelum melakukan pull:
+> ```bash
+> git stash
+> git pull origin main
+> git stash pop
+> ```
+
+---
+
 ## Panduan Penggunaan Notebook
 
 Jalankan notebook secara berurutan sesuai alur pipeline berikut:
